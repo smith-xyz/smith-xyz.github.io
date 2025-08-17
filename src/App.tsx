@@ -26,20 +26,24 @@ function App() {
           <div>
             <h2 className="text-3xl font-bold underline">About Me</h2>
             <p className="mt-2">
-              I'm a full stack software developer with over 6 years of
-              experience in creating scalable solutions using languages like
-              JavaScript, C#, Python, and Java. Currently at Travelers, I focus
-              on integrating secure OAuth2 workflows for our access, identity,
-              and profile applications. I enjoy mentoring junior developers and
-              contributing to open-source projects. Passionate about tackling
-              new challenges, I aim to leverage my skills to drive impactful
-              software development.
+              I'm a software engineer with over 7 years of experience building
+              scalable solutions in JavaScript, Go, C#, Python, and Java. I
+              currently work at Red Hat, focusing on compliance and security
+              engineering. My main interests lie in static analysis and
+              developing better ways to secure code by evaluating the blast
+              radius impact of codebases. Right now, I'm working on a
+              proof-of-concept static analysis tool for Go projects that
+              generates a function bill of materials. Check it out on my GitHub
+              page!
             </p>
           </div>
           <div>
             <h2 className="text-3xl font-bold underline">Projects</h2>
             <ul className="list-none mt-2">
               <li>
+                <a href="https://github.com/smith-xyz/golang-fbom-generator">
+                  golang fbom generator
+                </a>
                 <a href="https://github.com/smith-xyz/jorben-amich">
                   Discord bots monorepo
                 </a>
