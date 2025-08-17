@@ -44,6 +44,8 @@ function App() {
                 <a href="https://github.com/smith-xyz/golang-fbom-generator">
                   golang fbom generator
                 </a>
+              </li>
+              <li>
                 <a href="https://github.com/smith-xyz/jorben-amich">
                   Discord bots monorepo
                 </a>
