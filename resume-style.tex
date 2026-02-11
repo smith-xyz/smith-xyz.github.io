@@ -1,0 +1,20 @@
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{parskip}
+
+\definecolor{accent}{RGB}{0, 0, 0}
+
+\setlist[itemize]{noitemsep, topsep=2pt, parsep=1pt, partopsep=0pt, leftmargin=1.2em}
+
+\setlength{\parskip}{4pt}
+
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+  {-10pt \@plus -2pt \@minus -2pt}%
+  {4pt \@plus 2pt}%
+  {\centering\normalfont\large\bfseries}}
+
+\renewcommand\maketitle{%
+  {\centering\LARGE\bfseries\@title\par}%
+  \vspace{6pt}}
+\makeatother
