@@ -14,19 +14,19 @@ Software engineer with 7+ years of experience building scalable systems, securit
 
 **Software Engineer, July 2025 - Present |** _Red Hat, Raleigh NC_
 
-- Designed the architecture for CASEboard, a security posture platform that federates data from Jira, Product Pages, and CI systems to provide a unified view of CVE impact, SLA compliance, PQC readiness, and TLS posture across hybrid platform products (OCP, ACS, ACM). Defined service boundaries, data model, and backlog for team adoption.
+- Designed the architecture for a security posture platform that federates data from issue tracking, product catalogs, and CI systems to provide a unified view of CVE impact, SLA compliance, PQC readiness, and TLS posture across hybrid platform offerings. Defined service boundaries, data model, and backlog; implemented the federation pipeline (sync jobs, normalization, persistent store, and API) and established CI/CD with merge-request gating for the backend and frontend services.
 
-- Co-developed tls-scanner, a Go-based network security scanner that runs in-cluster on OpenShift to validate TLS profile compliance across platform components. Integrated into Prow CI for automated compliance checks.
+- Co-developed a Go-based in-cluster TLS compliance scanner that runs on OpenShift to validate TLS profile compliance across platform components. Integrated into CI for automated compliance checks.
 
-- Contributed to Argus, a Python-based security scanning engine using Semgrep to detect cryptographic weaknesses, PQC migration blockers, and TLS configuration issues across enterprise repositories. Authored custom Semgrep rules covering Go, Python, Rust, C/C++, Java, and TypeScript.
+- Contributed to a Python-based security scanning engine using Semgrep to detect cryptographic weaknesses, PQC migration blockers, and TLS misconfiguration across enterprise repositories. Authored custom rules for Go, Python, Rust, C/C++, Java, and TypeScript.
 
-- Authored TLS Profile Compliance Remediation Guidance for the Hybrid Platforms organization, defining how components adopt centrally managed TLS security profiles for PQC readiness. Document covers resolution steps, verification methods, and acceptance criteria used as a release gate for OCP 4.22.
+- Authored TLS Profile Compliance Remediation Guidance for the organization, defining how components adopt centrally managed TLS security profiles for PQC readiness. Document covers resolution steps, verification methods, and acceptance criteria used as a release gate for platform releases.
 
-- Maintained and contributed to check-payload, a Go-based FIPS compliance scanner for OpenShift payloads that validates container images and binaries for CGO linkage, OpenSSL usage, and FIPS mode compliance.
+- Maintained and contributed to a Go-based FIPS compliance scanner for OpenShift payloads that validates container images and binaries for CGO linkage, OpenSSL usage, and FIPS mode compliance.
 
-- Contributed to incident response tooling for malicious npm package detection, integrating OSSF malicious-packages feeds with internal Red Hat threat intelligence for automated IoC scanning.
+- Contributed to incident response tooling for malicious npm package detection, integrating external malicious-package feeds with internal threat intelligence for automated IoC scanning.
 
-- Built custom Cursor IDE plugins for OpenShift debugging and security analysis, using AI/LLM tooling to accelerate development workflows across the team.
+- Built custom IDE plugins for OpenShift debugging and security analysis, using AI/LLM tooling to accelerate development workflows across the team.
 
 ## Open Source Projects | _github.com/smith-xyz_
 
