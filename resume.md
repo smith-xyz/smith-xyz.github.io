@@ -8,47 +8,27 @@ title: Shaun Smith
 
 ## Profile
 
-Software engineer with 7+ years of experience building scalable systems, security tooling, and developer infrastructure. Deep expertise in Go, TypeScript, Python, and Rust with a focus on static analysis, cryptography, and runtime observability. Currently focused on post-quantum cryptography readiness and security compliance tooling at Red Hat. Independently builds open-source security tools spanning eBPF, compiler instrumentation, and static analysis.
+Product-minded engineer with 7+ years shipping full-stack systems, developer tools, and platform infrastructure. Core maintainer of TypeORM. Builds across Go, TypeScript, Python, and Rust — from mobile auth SDKs to data platforms to low-level runtime tooling. Thrives at the intersection of developer experience and complex systems.
 
 ## Work Experience
 
 **Software Engineer, July 2025 - Present |** _Red Hat, Raleigh NC_
 
-- Designed the architecture for a security posture platform that federates data from issue tracking, product catalogs, and CI systems to provide a unified view of CVE impact, SLA compliance, PQC readiness, and TLS posture across hybrid platform offerings. Defined service boundaries, data model, and backlog; implemented the federation pipeline (sync jobs, normalization, persistent store, and API) and established CI/CD with merge-request gating for the backend and frontend services.
+- Built an internal data platform that replaced manual tracking with a unified view of security posture across hybrid platform offerings, giving teams real-time visibility into compliance status and SLA adherence.
 
-- Co-developed a Go-based in-cluster TLS compliance scanner that runs on OpenShift to validate TLS profile compliance across platform components. Integrated into CI for automated compliance checks.
+- Shipped the platform to production on OpenShift with fully automated operations — zero-touch certificate rotation, scheduled data federation, and CI/CD gating across services.
 
-- Contributed to a Python-based security scanning engine using Semgrep to detect cryptographic weaknesses, PQC migration blockers, and TLS misconfiguration across enterprise repositories. Authored custom rules for Go, Python, Rust, C/C++, Java, and TypeScript.
+- Co-developed a compliance scanner adopted by OpenShift for automated validation across platform components, integrated directly into CI pipelines as a release gate.
 
-- Authored TLS Profile Compliance Remediation Guidance for the organization, defining how components adopt centrally managed TLS security profiles for PQC readiness. Document covers resolution steps, verification methods, and acceptance criteria used as a release gate for platform releases.
-
-- Maintained and contributed to a Go-based FIPS compliance scanner for OpenShift payloads that validates container images and binaries for CGO linkage, OpenSSL usage, and FIPS mode compliance.
-
-- Contributed to incident response tooling for malicious npm package detection, integrating external malicious-package feeds with internal threat intelligence for automated IoC scanning.
-
-- Built custom IDE plugins for OpenShift debugging and security analysis, using AI/LLM tooling to accelerate development workflows across the team.
-
-## Open Source Projects | _github.com/smith-xyz_
-
-- [tls-probe](https://github.com/smith-xyz/tls-probe): eBPF-based TLS handshake analyzer in Rust. Captures ClientHello/ServerHello at the network layer without process attachment. Detects PQC/hybrid key exchanges (ML-KEM, Kyber) across OpenSSL, BoringSSL, Go, and rustls.
-
-- [go-probe](https://github.com/smith-xyz/go-probe): Compile-time instrumentation patches for the Go compiler that emit zero-overhead probes at function call sites, observable via /proc without attaching to the process. Targets crypto usage detection and runtime dependency auditing.
-
-- [go-runtime-observer](https://github.com/smith-xyz/go-runtime-observer): Instrumented Go toolchain that logs runtime behavior (reflection, unsafe, stdlib crypto) with correlation tracking. Supports Go 1.19-1.25. Published as Docker images on GHCR.
-
-- [argflow](https://github.com/smith-xyz/argflow): Multi-language static analysis tool in Rust using Tree-sitter to trace function argument flows, with presets for cryptographic APIs. Output aligned to CBOM standards.
-
-- [PQC Readiness Tracker](https://smith-xyz.github.io/pqc-readiness-tracker): Interactive dashboard visualizing post-quantum cryptography implementation status across languages, crypto libraries, and standards.
+- Built IDE plugins using AI/LLM tooling to accelerate developer workflows, reducing friction for debugging and analysis across the team.
 
 **Software Engineer II Tech Lead, April 2023 - July 2025 |** _Travelers, Hartford CT_
 
-- Led the migration of cybersecurity engineers into the mobile CIAM domain, developing a cross-platform authentication library using React Native with native Swift and Kotlin modules, integrating with enterprise identity providers via OAuth2 (PKCE) and SSO.
+- Led a cross-functional team building a mobile authentication library in React Native with native Swift and Kotlin modules, adopted across the company's customer-facing apps. Earned the Innovative Solutions Award.
 
-- Built automation and service integrations with Okta to transition legacy systems into a centralized identity framework. Earned the Innovative Solutions Award for leadership in enterprise-wide security modernization.
+- Drove enterprise-wide identity modernization — automated Okta integrations to retire legacy auth systems into a centralized identity framework serving millions of users.
 
-- Engineered CIAM services and APIs with Node.js and .NET, driving adoption of security-first development practices including token handling, encryption, and secrets management.
-
-- Mentored engineers through pair programming and tech talks on open-source practices, security hygiene, and automation. Experience with containerized workflows in OpenShift and AWS EKS.
+- Built CIAM services and APIs (Node.js, .NET) powering authentication for customer-facing applications. Mentored engineers through pair programming and tech talks on open-source practices and automation.
 
 **Full Stack Software Developer, January 2022 - April 2023 |** _Dotmatics (Labarchives), San Diego CA_
 
@@ -70,18 +50,25 @@ Software engineer with 7+ years of experience building scalable systems, securit
 
 - Established the division's first CI/CD process using Azure DevOps Pipelines and Liquibase, reducing deployment time by over 50%.
 
+## Open Source Projects | _github.com/smith-xyz_
+
+- [TypeORM](https://github.com/typeorm/typeorm): Core maintainer of the widely-adopted TypeScript ORM.
+
+- [context-reliability-testing](https://github.com/smith-xyz/context-reliability-testing): Python CLI for A/B testing AI agent context configurations — measures pass rate, token usage, and tool calls across controlled experiments.
+
+- [tls-probe](https://github.com/smith-xyz/tls-probe): eBPF-based TLS handshake analyzer in Rust that captures handshakes at the network layer without process attachment.
+
 ## Key Skills
 
 - Languages: Go, TypeScript, JavaScript, Python, Rust, C#, Java, Swift, Kotlin
 - Backend: Node.js, Flask, Django, .NET Core, GraphQL
-- Frontend and Mobile: React.js, Next.js, Redux, PatternFly, Vite, React Native
-- Security: Semgrep, eBPF/bpftrace, Go compiler instrumentation, TLS/FIPS analysis, PQC (ML-KEM, Kyber), NIST standards, Tree-sitter, CBOM
-- Cloud and DevOps: AWS (ECS, EKS, Lambda, RDS, S3), Red Hat OpenShift, Terraform, ArgoCD, Prow CI
+- Frontend and Mobile: React.js, Next.js, Redux, Vite, React Native
+- Cloud and Infrastructure: AWS (ECS, EKS, Lambda, RDS, S3), OpenShift, Terraform, ArgoCD
 - Data: PostgreSQL, MySQL, MSSQL Server, MongoDB, DynamoDB, Redis
-- AI/LLM: OpenAI, Gemini, Claude, Cursor, MCP servers
-- CI/CD: GitHub Actions, Jenkins, GitLab CI, Azure DevOps, Tekton
+- Developer Tools: Semgrep, eBPF, Tree-sitter, Cursor, MCP servers
+- CI/CD: GitHub Actions, Jenkins, GitLab CI, Azure DevOps, Tekton, Prow
 - Observability: Dynatrace, Datadog, Splunk
 
 ## Education
 
-M.A. Philosophy, B.S. Political Science | _Liberty University_
+M.A. Philosophy (computability, modal logic, probability theory), B.S. Political Science | _Liberty University_

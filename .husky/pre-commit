@@ -1,0 +1,3 @@
+pnpm tsc -b --noEmit
+pnpm eslint .
+pnpm lint-staged
