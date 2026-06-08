@@ -8,41 +8,43 @@ title: Shaun Smith
 
 ## Profile
 
-Product-minded engineer with 7+ years shipping full-stack systems, developer tools, and platform infrastructure. Core maintainer of TypeORM. Builds across Go, TypeScript, Python, and Rust — from mobile auth SDKs to data platforms to low-level runtime tooling. Thrives at the intersection of developer experience and complex systems.
+Product-minded Full Stack Engineer with 8+ years of SaaS experience shipping Node.js/TypeScript and React platforms. Former Dotmatics engineer (LabArchives); returning with domain knowledge of scientific R&D workflows and enterprise life-sciences SaaS. Builds event-driven data pipelines and AI-native developer tooling. Core maintainer of TypeORM.
 
 ## Work Experience
 
 **Software Engineer, July 2025 - Present |** _Red Hat, Raleigh NC_
 
-- Built an internal data platform that replaced manual tracking with a unified view of security posture across hybrid platform offerings, giving teams real-time visibility into compliance status and SLA adherence.
+- Built an event-driven data federation platform on OpenShift — scheduled polling services aggregate cross-platform posture data into a unified compliance view.
 
-- Shipped the platform to production on OpenShift with fully automated operations — zero-touch certificate rotation, scheduled data federation, and CI/CD gating across services.
+- Established automated operational pipelines on OCP with CI/CD gating, observability, and zero-touch certificate rotation for mission-critical services.
 
-- Co-developed a compliance scanner adopted by OpenShift for automated validation across platform components, integrated directly into CI pipelines as a release gate.
-
-- Built IDE plugins using AI/LLM tooling to accelerate developer workflows, reducing friction for debugging and analysis across the team.
+- Built IDE plugins using AI/LLM tooling to accelerate developer workflows and reduce team friction during debugging and analysis.
 
 **Software Engineer II Tech Lead, April 2023 - July 2025 |** _Travelers, Hartford CT_
 
 - Led a cross-functional team building a mobile authentication library in React Native with native Swift and Kotlin modules, adopted across the company's customer-facing apps. Earned the Innovative Solutions Award.
 
-- Drove enterprise-wide identity modernization — automated Okta integrations to retire legacy auth systems into a centralized identity framework serving millions of users.
+- Drove enterprise-wide identity modernization — automated Okta integrations (including event streaming) to retire legacy auth into a centralized identity framework serving millions of users.
 
-- Built CIAM services and APIs (Node.js, .NET) powering authentication for customer-facing applications. Mentored engineers through pair programming and tech talks on open-source practices and automation.
+- Built CIAM services and REST APIs (Node.js, .NET) powering authentication for customer-facing applications.
+
+- Integrated RabbitMQ (OpenAPI-driven consumers) to synchronize customer contact data across downstream systems.
+
+- Mentored engineers through pair programming and tech talks on open-source practices and automation.
 
 **Full Stack Software Developer, January 2022 - April 2023 |** _Dotmatics (Labarchives), San Diego CA_
 
-- Led the migration of backend services from Ruby on Rails to Node.js and React.js, refactoring over 60% of the codebase with 100% test coverage on the new codebase.
+- Led migration of backend services from Ruby on Rails to Node.js and React.js — refactored 60%+ of the codebase with 100% test coverage on new code.
 
-- Redesigned the user reporting system using AWS ECS, Redis, and S3, improving large report distribution performance by 80%.
+- Redesigned high-volume scientific reporting on AWS ECS, Redis, and S3, improving large report distribution performance by 80%.
 
-- Built a real-time messaging system using WebSocket and ElastiCache for parallel resource collaboration. Optimized MySQL and SQLite queries, increasing admin module engagement by 30%.
+- Built real-time collaboration via WebSockets and ElastiCache; optimized relational DB queries (MySQL, SQLite), increasing admin module engagement by 30%.
 
 **Software Engineer II, June 2021 - January 2022** | _MH Corbin, Raleigh NC (Fixed Contract)_
 
-- Developed MERN stack solutions and REST APIs (Python, Java) for the state DOT, providing real-time traffic sensor and construction zone monitoring.
+- Contract R&D for state DOT smart-highway initiatives — MERN stack apps and REST APIs (Python, Java) for traffic sensor and construction zone monitoring.
 
-- Built event-driven solutions using MQTT for highway field device communication and maintained a PostgreSQL database for sensor data.
+- Built event-driven MQTT pipelines for V2X field-device messaging (connected vehicle / highway infrastructure research); maintained PostgreSQL for sensor telemetry.
 
 **Software Developer, December 2018 - June 2021** | _Farragut Systems, Durham NC_
 
@@ -65,6 +67,7 @@ Product-minded engineer with 7+ years shipping full-stack systems, developer too
 - Frontend and Mobile: React.js, Next.js, Redux, Vite, React Native
 - Cloud and Infrastructure: AWS (ECS, EKS, Lambda, RDS, S3), OpenShift, Terraform, ArgoCD
 - Data: PostgreSQL, MySQL, MSSQL Server, MongoDB, DynamoDB, Redis
+- Messaging: RabbitMQ, MQTT, event-driven pipelines (Kafka — working knowledge)
 - Developer Tools: Semgrep, eBPF, Tree-sitter, Cursor, MCP servers
 - CI/CD: GitHub Actions, Jenkins, GitLab CI, Azure DevOps, Tekton, Prow
 - Observability: Dynatrace, Datadog, Splunk
