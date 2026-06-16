@@ -8,15 +8,17 @@ title: Shaun Smith
 
 ## Profile
 
-Product-minded Full Stack Engineer with 8+ years of SaaS experience shipping Node.js/TypeScript and React platforms. Former Dotmatics engineer (LabArchives); returning with domain knowledge of scientific R&D workflows and enterprise life-sciences SaaS. Builds event-driven data pipelines and AI-native developer tooling. Core maintainer of TypeORM.
+Product-minded Full Stack Engineer with 8+ years of SaaS experience building Node.js/TypeScript and React platforms. Ships event-driven data pipelines, REST APIs, and AI-assisted developer tooling. Background in life-sciences SaaS, enterprise identity, and cloud-native platform work. Core maintainer of TypeORM.
 
 ## Work Experience
 
 **Software Engineer, July 2025 - Present |** _Red Hat, Raleigh NC_
 
-- Built an event-driven data federation platform on OpenShift — scheduled polling services aggregate cross-platform posture data into a unified compliance view.
+- Built an event-driven data federation platform on OpenShift: scheduled jobs aggregate upstream security posture data into a unified view, served via REST API to a React/TypeScript frontend.
 
 - Established automated operational pipelines on OCP with CI/CD gating, observability, and zero-touch certificate rotation for mission-critical services.
+
+- Built a TypeScript CLI using LLM orchestration to automate vulnerability triage and remediation workflows across component repos.
 
 - Built IDE plugins using AI/LLM tooling to accelerate developer workflows and reduce team friction during debugging and analysis.
 
@@ -32,11 +34,11 @@ Product-minded Full Stack Engineer with 8+ years of SaaS experience shipping Nod
 
 - Mentored engineers through pair programming and tech talks on open-source practices and automation.
 
-**Full Stack Software Developer, January 2022 - April 2023 |** _Dotmatics (Labarchives), San Diego CA_
+**Full Stack Software Developer, January 2022 - April 2023 |** _Dotmatics (LabArchives ELN), San Diego CA_
 
 - Led migration of backend services from Ruby on Rails to Node.js and React.js — refactored 60%+ of the codebase with 100% test coverage on new code.
 
-- Redesigned high-volume scientific reporting on AWS ECS, Redis, and S3, improving large report distribution performance by 80%.
+- Redesigned async reporting pipeline on AWS ECS, Redis, and S3, improving large report distribution performance by 80%.
 
 - Built real-time collaboration via WebSockets and ElastiCache; optimized relational DB queries (MySQL, SQLite), increasing admin module engagement by 30%.
 
